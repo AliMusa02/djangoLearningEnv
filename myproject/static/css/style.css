@@ -7,14 +7,37 @@
 
 body {
     min-height: 100vh;
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-flow: column;
     font-size: 3rem;
     background-color: black;
     color: whitesmoke;
 }
 
+nav {
+    padding: 1rem;
+    background-color: aquamarine;
+    color: white;
+    font-size: 2.5rem;
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+
+}
+
 h1,
 p {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:hover {
+    opacity: .85;
 }
