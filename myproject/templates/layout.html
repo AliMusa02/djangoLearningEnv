@@ -15,15 +15,15 @@
 <body>
     <nav>
         <a href="/">
-        <span role="img" aria-label="Home">🏠</span>
+        <span role="img" aria-label="Home" title="Home">🏠</span>
         </a> | 
         <a href="/about">
-         <span role="img" aria-label="About">😊</span>
+         <span role="img" aria-label="About" title="About">😊</span>
         </a> | 
-        <a href="{% url "posts:list" %}">
+        <a href="{% url "posts:list" %}" title="Posts">
         <span role="img" aria-label="Home">📰</span>    
         </a>
-        <a href="{% url "register" %}">
+        <a href="{% url "users:register" %}" title="Users">
             <span role="img" aria-label="User">👤</span>
         </a>
     </nav> 

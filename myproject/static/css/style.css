@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-flow: column;
-    font-size: 3rem;
+    font-size: 1rem;
     background-color: black;
     color: whitesmoke;
 }
