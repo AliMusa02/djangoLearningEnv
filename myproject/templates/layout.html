@@ -22,10 +22,14 @@
         </a> | 
         <a href="{% url "posts:list" %}" title="Posts">
         <span role="img" aria-label="Home">📰</span>    
-        </a>
+        </a> |
         <a href="{% url "users:register" %}" title="Users">
             <span role="img" aria-label="User">👤</span>
+        </a> |
+        <a href="{% url "users:login" %}" title="User Login">
+            <span role="img" aria-label="User Login">🔒</span>
         </a>
+
     </nav> 
     <main>
         {% block content %}
