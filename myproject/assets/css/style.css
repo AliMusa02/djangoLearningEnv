@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    font-size: 1rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav {
+    padding: 1rem;
+    background-color: aquamarine;
+    color: white;
+    font-size: 2.5rem;
+}
+
+main {
+    flex-grow: 1;
+
+
+}
+
+h1,
+p {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:hover {
+    opacity: .85;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.logout {
+    display: inline-block;
+}
+
+.logout-button {
+    font-size: 2.5rem;
+    background-color: black;
+    border: none;
+}
+
+.logout-button:hover {
+    opacity: .85;
+}
