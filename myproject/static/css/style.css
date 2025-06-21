@@ -46,3 +46,17 @@ a:hover {
     width: 100%;
     height: 80px;
 }
+
+.logout {
+    display: inline-block;
+}
+
+.logout-button {
+    font-size: 2.5rem;
+    background-color: black;
+    border: none;
+}
+
+.logout-button:hover {
+    opacity: .85;
+}
